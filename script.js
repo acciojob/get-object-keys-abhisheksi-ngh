@@ -9,7 +9,7 @@ function getKeys(obj) {
 }
 
 // Testing the function
-console.log(getKeys(student)); // ["name"]
+// ["name"]
 
 // Additional test
 const student2 = {
@@ -19,3 +19,4 @@ const student2 = {
 };
 
 console.log(getKeys(student2)); // ["name", "age", "city"]
+console.log(getKeys(student)); 
