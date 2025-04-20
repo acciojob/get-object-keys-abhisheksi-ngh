@@ -1,10 +1,21 @@
-//your JS code here. If required.
+// Create the student object
 const student = {
   name: "John",
-	age:20,
-	city:"Jaipur"
 };
-function getKeys(obj){
-	return Object.keys(obj);
+
+// Function to get all keys from the object
+function getKeys(obj) {
+  return Object.keys(obj);
 }
-console.log(getKeys(student));
+
+// Testing the function
+console.log(getKeys(student)); // ["name"]
+
+// Additional test
+const student2 = {
+  name: "Alice",
+  age: 22,
+  city: "Delhi"
+};
+
+console.log(getKeys(student2)); // ["name", "age", "city"]
